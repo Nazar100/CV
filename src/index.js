@@ -1,6 +1,6 @@
 import "./css/common.css";
 import "./css/styles.scss";
-// import "./js/type";
+import "./js/type";
 import "./js/io";
 import "./js/timeouts";
 import "./js/timer";

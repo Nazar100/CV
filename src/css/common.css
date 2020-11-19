@@ -368,8 +368,12 @@ p {
 .part-text {
   margin-left: 25%;
 }
-.backdrop.is-hidden,
-.backdrop-n.is-hidden {
+/* .backdrop.backdrop.is-hidden {
+  opacity: 1;
+} */
+
+.backdrop-n.is-hidden,
+.backdrop.backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
@@ -429,6 +433,9 @@ p {
 }
 .close-icon,
 .close-icon-n {
+  background-color: none;
+  background: none;
+  border: none;
   font-size: 55px;
   position: relative;
   top: 0;
@@ -436,6 +443,11 @@ p {
   transform: translate(20px, -535px);
   cursor: pointer;
 }
+.close-icon:focus,
+.close-icon-n:focus {
+  outline: none;
+}
+
 .code {
   margin-left: 42%;
 }
@@ -672,7 +684,7 @@ footer ul li a:hover {
   left: 970px;
   top: 33px;
 }
-#google_search {
+.google_search {
   display: inline-block;
   height: 36px;
   line-height: 27px;
@@ -689,7 +701,7 @@ footer ul li a:hover {
   padding: 5px 16px;
   text-align: center;
 }
-#google_search:hover {
+.google_search:hover {
   border: 0.7px solid #d0d0d0;
   color: #000;
   box-shadow: 0px 1px 4px #e4e4e4;
