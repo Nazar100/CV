@@ -14,8 +14,8 @@ const closeBtn = document.querySelector(".close-icon");
 const backdropN = document.querySelector(".backdrop-n");
 const closeBtnN = document.querySelector(".close-icon-n");
 
-setTimeout(removeClass, 20000);
-setTimeout(removeClassN, 50000);
+setTimeout(removeClass, 30000);
+setTimeout(removeClassN, 60000);
 
 function removeClass() {
   backdrop.classList.remove("is-hidden");

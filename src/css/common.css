@@ -101,8 +101,8 @@ p {
 .main-container {
   padding-top: 210px;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   position: relative;
   height: 770px;
   perspective: 400px;
@@ -146,14 +146,14 @@ p {
 .football {
   font-size: 25px;
   width: 200px;
-  transform: translate(1200px, 600px) rotateZ(5deg);
+  transform: translate(1200px, 600px);
   transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .football.active {
-  transform: translate(800px, 600px) rotateZ(5deg) scale(1, 1);
+  transform: translate(800px, 600px) scale(1, 1);
 }
 .football.active:hover {
-  transform: translate(800px, 600px) rotateZ(5deg) scale(1.1, 1.1);
+  transform: translate(800px, 600px) scale(1.1, 1.1);
 }
 
 .ua-photo {
@@ -163,7 +163,7 @@ p {
 }
 .ua-photo.active {
   opacity: 1;
-  transform: translate(50px, 550px) scale(1, 1);
+  transform: translate(50px, 570px) scale(1, 1);
 }
 .ua-photo.active:hover {
   transform: translate(50px, 550px) scale(1.1, 1.1);
@@ -185,53 +185,53 @@ p {
 }
 
 .me-photo {
-  transform: translate(150px, 110px) rotateZ(350deg);
+  transform: translate(150px, 100px);
   opacity: 0;
   transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .me-photo.active {
   opacity: 1;
-  transform: translate(150px, 110px) rotateZ(350deg) scale(1, 1);
+  transform: translate(150px, 90px) scale(1, 1);
 }
 .me-photo.active:hover {
-  transform: translate(150px, 110px) rotateZ(350deg) scale(1.1, 1.1);
+  transform: translate(150px, 110px) scale(1.1, 1.1);
 }
 
 .wu-photo {
-  transform: translate(420px, 300px) rotateZ(360deg);
+  transform: translate(420px, 300px);
   opacity: 0;
   transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .wu-photo.active {
   opacity: 1;
-  transform: translate(420px, 300px) rotateZ(360deg) scale(1, 1);
+  transform: translate(420px, 315px) scale(1, 1);
 }
 
 .wu-photo.active:hover {
-  transform: translate(420px, 300px) rotateZ(360deg) scale(1.1, 1.1);
+  transform: translate(420px, 300px) scale(1.1, 1.1);
 }
 
 .wu {
   font-size: 35px;
-  transform: translate(-85px, 520px) rotateZ(5deg);
+  transform: translate(-85px, 520px);
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .wu.active {
-  transform: translate(85px, 520px) rotateZ(5deg) scale(1, 1);
+  transform: translate(85px, 520px) scale(1, 1);
 }
 .wu.active:hover {
-  transform: translate(85px, 520px) rotateZ(5deg) scale(1.1, 1.1);
+  transform: translate(85px, 520px) scale(1.1, 1.1);
 }
 .school {
   font-size: 25px;
-  transform: translate(-150px, 50px) rotateZ(350deg);
+  transform: translate(-150px, 50px);
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .school.active {
-  transform: translate(50px, 50px) rotateZ(350deg) scale(1, 1);
+  transform: translate(50px, 50px) scale(1, 1);
 }
 .school.active:hover {
-  transform: translate(50px, 50px) rotateZ(350deg) scale(1.1, 1.1);
+  transform: translate(50px, 50px) scale(1.1, 1.1);
 }
 
 .bd {
@@ -240,11 +240,11 @@ p {
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .bd.active {
-  transform: translate(100px, 250px) rotateZ(350deg) scale(1, 1);
+  transform: translate(100px, 250px) scale(1, 1);
 }
 
 .bd.active:hover {
-  transform: translate(100px, 250px) rotateZ(350deg) scale(1.1, 1.1);
+  transform: translate(100px, 250px) scale(1.1, 1.1);
 }
 .bd-timer {
   font-size: 40px;
@@ -265,23 +265,23 @@ p {
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .moving.active {
-  transform: translate(600px, 59px) rotateZ(350deg) scale(1, 1);
+  transform: translate(600px, 59px) scale(1, 1);
 }
 
 .moving.active:hover {
-  transform: translate(650px, 80px) rotateZ(350deg) scale(1.1, 1.1);
+  transform: translate(650px, 80px) scale(1.1, 1.1);
 }
 
 .usa {
   font-size: 40px;
-  transform: translate(900px, 200px) rotateZ(360deg);
+  transform: translate(900px, 200px);
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .usa.active {
-  transform: translate(700px, 200px) rotateZ(360deg) scale(1, 1);
+  transform: translate(700px, 200px) scale(1, 1);
 }
 .usa.active:hover {
-  transform: translate(700px, 200px) rotateZ(360deg) scale(1.1, 1.1);
+  transform: translate(700px, 200px) scale(1.1, 1.1);
 }
 
 .aboutme {
