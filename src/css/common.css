@@ -871,3 +871,6 @@ footer ul li a:hover {
 html {
   scroll-behavior: smooth;
 }
+button:focus {
+  outline: none;
+}
