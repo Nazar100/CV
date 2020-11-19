@@ -74,6 +74,10 @@ p {
   color: #f3dd45;
 }
 
+.my-photo {
+  height: 100%;
+}
+
 .timer-container {
   position: relative;
   display: flex;
