@@ -801,7 +801,7 @@ footer ul li a:hover {
 }
 .contacts {
   margin-top: 60px;
-  background-image: url(../img/gates.jpg);
+  background-image: url(/src/img/gates.jpg);
   height: 645px;
 
   background-position: center;
