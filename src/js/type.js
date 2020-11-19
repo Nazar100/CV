@@ -9,4 +9,3 @@ let options = {
 
 // const sectionRef = document.querySelector("section");
 let typed = new Typed("#typed", options);
-console.log(typed);
