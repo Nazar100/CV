@@ -1,0 +1,24 @@
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5 {
+  color: white;
+  transition: color 250ms ease-in-out;
+}
+
+.color-1:hover {
+  color: #e9b819;
+}
+.color-2:hover {
+  color: #ed6f50;
+}
+.color-3:hover {
+  color: #006eb6;
+}
+.color-4:hover {
+  color: #76a527;
+}
+.color-5:hover {
+  color: #a38ec2;
+}

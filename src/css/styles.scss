@@ -1,4 +1,11 @@
-//=== Drawing effect
+@import "./components/main";
+@import "./components/header";
+@import "./components/motives";
+@import "./components/bio";
+@import "./components/skills";
+@import "./components/contacts";
+@import "./components/modal";
+@import "./components/hero";
 
 @mixin btn-border-drawing(
   $color: #ccc,
@@ -81,6 +88,7 @@
   margin-left: auto;
   z-index: 3;
   font-weight: 700;
+  display: none;
 }
 
 .btn-video {

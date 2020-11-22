@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --background: #fef3e2;
+  --text: black;
+  --red: #fa4032;
+  --yellow: #faaf08;
+  --orange: #fa812f;
+}
+
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.5;
+  /* background-color: var(--background); */
+  color: var(--text);
+  /* margin-top: 56px; */
+  font-family: "Do Hyeon", sans-serif;
+}
+img {
+  display: block;
+}
+p {
+  margin: 0px;
+}
+
+.scroll-up {
+  position: fixed;
+  right: 85px;
+  bottom: 85px;
+  z-index: 1000;
+  width: 25px;
+  height: 25px;
+  color: #d3d3d4;
+  cursor: pointer;
+  visibility: hidden;
+
+  opacity: 0;
+  transition: 0.2s;
+  transform: translateY(25px);
+}
+
+.scroll-up::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  content: "↑";
+  transform: translate(38px, 35px);
+  /* transform: translateX(20px); */
+}
+.scroll-up:hover {
+  color: #f3dd45;
+}
+
+.scroll-up--active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-up__svg {
+  fill: none;
+  box-sizing: border-box;
+  stroke: #f3dd45;
+  stroke-width: 7px;
+  transition: 0.2s;
+}
+html {
+  scroll-behavior: smooth;
+}
+button:focus {
+  outline: none;
+}

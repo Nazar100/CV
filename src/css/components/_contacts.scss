@@ -1,0 +1,25 @@
+.contacts {
+  margin-top: 60px;
+  background-image: url(https://pbs.twimg.com/media/EnNK_TpW4AAOQEQ?format=jpg&name=medium);
+  height: 645px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-left: 70px;
+}
+
+.contacts ul {
+  padding: 0;
+  /* margin-top: 100px; */
+  list-style: none;
+}
+.contacts ul li {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.contacts ul li:hover a {
+  font-size: 45px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+.hero {
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  /* margin-top: 20px; */
+  /* margin: auto 0; */
+  /* border: var(--text) 2px solid; */
+  /* padding: 30px; */
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+}
+.my-photo {
+  height: 500px;
+  width: 100%;
+
+  @media screen and (min-width: 1024px) {
+    width: 501px;
+  }
+}
+
+.text-container {
+  height: 150px;
+  // padding: 35px;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+.text {
+  margin-left: 50px;
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  @media screen and (min-width: 1025px) {
+    margin-top: 170px;
+    display: block;
+    font-size: 90px;
+  }
+}
+.typed-cursor {
+  //   margin-left: 30px;
+  //   margin-top: 170px;
+  font-size: 90px;
+  display: none;
+}

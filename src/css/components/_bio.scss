@@ -1,0 +1,224 @@
+.timer-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.timer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  transform: translate(830px, 310px) scale(1, 1);
+  transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-shadow: 4px 4px rgb(180, 43, 25);
+}
+.timer:hover {
+  transform: translate(850px, 310px) scale(1.1, 1.1);
+}
+
+.value {
+  margin-left: 10px;
+}
+
+.main-container {
+  padding-top: 210px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  position: relative;
+  height: 770px;
+  perspective: 400px;
+  overflow: hidden;
+}
+
+.moving,
+.bd-timer,
+.wu-photo,
+.wu,
+.school,
+.bd,
+.bd-timer,
+.me-photo,
+.usa,
+.photo-usa,
+.ua-photo,
+.timer,
+.football,
+.football-photo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-shadow: 2px 1px #f3dd45;
+}
+
+.football-photo {
+  transform: translate(400px, 580px) scale(1, 1);
+  opacity: 0;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.football-photo.active {
+  transform: translate(400px, 580px) scale(1, 1);
+  opacity: 1;
+}
+
+.football-photo.active:hover {
+  transform: translate(400px, 580px) scale(1.1, 1.1);
+}
+
+.football {
+  font-size: 25px;
+  width: 200px;
+  transform: translate(1200px, 600px);
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.football.active {
+  transform: translate(800px, 600px) scale(1, 1);
+}
+.football.active:hover {
+  transform: translate(800px, 600px) scale(1.1, 1.1);
+}
+
+.ua-photo {
+  transform: translate(50px, 550px);
+  opacity: 0;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.ua-photo.active {
+  opacity: 1;
+  transform: translate(50px, 570px) scale(1, 1);
+}
+.ua-photo.active:hover {
+  transform: translate(50px, 550px) scale(1.1, 1.1);
+}
+
+.photo-usa {
+  transform: translate(1100px, 380px);
+  opacity: 0;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.photo-usa.active {
+  opacity: 1;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(1100px, 380px) scale(1, 1);
+}
+
+.photo-usa.active:hover {
+  transform: translate(1100px, 380px) scale(1.1, 1.1);
+}
+
+.me-photo {
+  transform: translate(150px, 100px);
+  opacity: 0;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.me-photo.active {
+  opacity: 1;
+  transform: translate(150px, 90px) scale(1, 1);
+}
+.me-photo.active:hover {
+  transform: translate(150px, 110px) scale(1.1, 1.1);
+}
+
+.wu-photo {
+  transform: translate(420px, 300px);
+  opacity: 0;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.wu-photo.active {
+  opacity: 1;
+  transform: translate(420px, 315px) scale(1, 1);
+}
+
+.wu-photo.active:hover {
+  transform: translate(420px, 300px) scale(1.1, 1.1);
+}
+
+.wu {
+  font-size: 35px;
+  transform: translate(-85px, 520px);
+  transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.wu.active {
+  transform: translate(85px, 520px) scale(1, 1);
+}
+.wu.active:hover {
+  transform: translate(85px, 520px) scale(1.1, 1.1);
+}
+.school {
+  font-size: 25px;
+  transform: translate(-150px, 50px);
+  transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.school.active {
+  transform: translate(50px, 50px) scale(1, 1);
+}
+.school.active:hover {
+  transform: translate(50px, 50px) scale(1.1, 1.1);
+}
+
+.bd {
+  font-size: 50px;
+  transform: translate(-100px, 200px);
+  transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.bd.active {
+  transform: translate(100px, 250px) scale(1, 1);
+}
+
+.bd.active:hover {
+  transform: translate(100px, 250px) scale(1.1, 1.1);
+}
+.bd-timer {
+  font-size: 40px;
+  transform: translate(-400px, 300px);
+  transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1) scale(1, 1);
+}
+.bd-timer.active {
+  transform: translate(400px, 330px) scale(1, 1);
+}
+
+.bd-timer.active:hover {
+  transform: translate(400px, 330px) scale(1.1, 1.1);
+}
+
+.moving {
+  font-size: 59px;
+  transform: translate(900px, 80px);
+  transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.moving.active {
+  transform: translate(600px, 59px) scale(1, 1);
+}
+
+.moving.active:hover {
+  transform: translate(650px, 80px) scale(1.1, 1.1);
+}
+
+.usa {
+  font-size: 40px;
+  transform: translate(900px, 200px);
+  transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.usa.active {
+  transform: translate(700px, 200px) scale(1, 1);
+}
+.usa.active:hover {
+  transform: translate(700px, 200px) scale(1.1, 1.1);
+}
+
+.aboutme {
+  padding-top: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(243, 221, 69);
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aboutme p {
+  font-size: 75px;
+  color: white;
+  cursor: default;
+}

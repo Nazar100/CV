@@ -1,0 +1,124 @@
+.glow {
+  /* font-size: 80px; */
+  color: black;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(84, 187, 84),
+      0 0 40px #25ec25, 0 0 50px #0fffa3, 0 0 60px #7aeb10, 0 0 70px #73e465;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #caff09, 0 0 40px #e7e40d,
+      0 0 50px #f8d50e, 0 0 60px #dad609, 0 0 70px #dfe21b, 0 0 80px #caeb10;
+  }
+}
+
+.modal ul,
+.modal-n ul {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  list-style: none;
+  align-self: center;
+  padding: 0;
+}
+.modal ul li a img,
+.modal-n ul li a img {
+  transform: scale(1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal ul li a img:hover,
+.modal-n ul li a img:hover {
+  transform: scale(1.2);
+}
+
+.part-text {
+  margin-left: 25%;
+}
+/* .backdrop.backdrop.is-hidden {
+  opacity: 1;
+} */
+
+.backdrop-n.is-hidden,
+.backdrop.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop,
+.backdrop-n {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 4, 4, 0.7);
+  position: fixed;
+  z-index: 4;
+  opacity: 1;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 93px 15px;
+  overflow-y: scroll;
+}
+.modal,
+.modal-n {
+  width: 59%;
+  height: 600px;
+  position: absolute;
+  background-color: white;
+  top: 55%;
+  left: 50%;
+  transform: scale(1) translate(-50%, -55%);
+  z-index: 3;
+  padding: 15px 25px;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 4px 4px 4px rgba(0.15, 0.15, 0.15, 0.15);
+}
+.modal img,
+.modal img {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+.modal-text {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.modal p,
+.modal-n p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  align-self: center;
+
+  /* width: 480px; */
+}
+.close-icon,
+.close-icon-n {
+  background-color: none;
+  background: none;
+  border: none;
+  font-size: 55px;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: translate(20px, -535px);
+  cursor: pointer;
+}
+.close-icon:focus,
+.close-icon-n:focus {
+  outline: none;
+}
