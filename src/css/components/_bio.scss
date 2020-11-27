@@ -4,14 +4,14 @@
   align-items: center;
 }
 .timer {
-  font-size: 15px;
+  font-size: 25px;
 
   position: absolute;
   left: 0;
   top: 0;
   display: flex;
   align-items: center;
-  transform: translate(30px, 90px) scale(1, 1);
+  transform: translate(15px, 150px) scale(1, 1);
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
   text-shadow: 4px 4px rgb(180, 43, 25);
 
@@ -35,9 +35,13 @@
   background-color: white;
   color: black;
   position: relative;
-  height: 770px;
+  height: 500px;
   perspective: 400px;
   overflow: hidden;
+
+  @media screen and (min-width: 1024px) {
+    height: 770px;
+  }
 }
 
 .moving,
@@ -85,7 +89,7 @@
   transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .football.active {
-  transform: translate(30px, 260px) scale(1, 1);
+  transform: translate(30px, 370px) scale(1, 1);
 
   @media screen and (min-width: 1024px) {
     font-size: 25px;
@@ -180,7 +184,7 @@
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .wu.active {
-  transform: translate(15px, 170px) scale(1, 1);
+  transform: translate(15px, 280px) scale(1, 1);
 
   @media screen and (min-width: 1024px) {
     font-size: 35px;
@@ -192,7 +196,7 @@
   transform: translate(85px, 520px) scale(1.1, 1.1);
 }
 .school {
-  font-size: 15px;
+  font-size: 20px;
   transform: translate(-150px, 50px);
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -201,7 +205,7 @@
   }
 }
 .school.active {
-  transform: translate(10px, 50px) scale(1, 1);
+  transform: translate(10px, 80px) scale(1, 1);
 
   @media screen and (min-width: 1024px) {
     transform: translate(50px, 50px) scale(1, 1);
@@ -212,7 +216,7 @@
 }
 
 .bd {
-  font-size: 15px;
+  font-size: 30px;
   transform: translate(-100px, 200px);
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -254,7 +258,7 @@
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .moving.active {
-  transform: translate(10px, 130px) scale(1, 1);
+  transform: translate(10px, 220px) scale(1, 1);
 
   @media screen and (min-width: 1024px) {
     font-size: 59px;
@@ -273,7 +277,7 @@
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .usa.active {
-  transform: translate(5px, 300px) scale(1, 1);
+  transform: translate(5px, 430px) scale(1, 1);
 
   @media screen and (min-width: 1024px) {
     font-size: 40px;

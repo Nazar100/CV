@@ -160,7 +160,6 @@ footer ul li a:hover {
 
 .footer-right {
   float: right;
-  background-color: #f2f2f2;
 }
 
 /* MEDIA QUERIES */
@@ -245,6 +244,7 @@ footer ul li a:hover {
     padding: 0;
     float: none;
     text-align: center;
+    background-color: #f2f2f2;
   }
 }
 .google-header {
@@ -323,6 +323,10 @@ footer ul li a:hover {
   padding: 10px;
   display: flex;
   align-items: center;
+
+  @media screen and (min-width: 1024px) {
+    padding: 5px;
+  }
 }
 
 .search-block ul li:hover {

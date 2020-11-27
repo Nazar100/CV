@@ -6,7 +6,7 @@ const timer = document.querySelector("#timer-1");
 const images = cont.querySelectorAll("img");
 
 const options = {
-  threshold: 0.5,
+  threshold: 0.1,
 };
 
 const callbackText = (entries) => {
