@@ -1,12 +1,18 @@
 .contacts {
-  margin-top: 60px;
+  margin-top: 228px;
   background-image: url(https://pbs.twimg.com/media/EnNK_TpW4AAOQEQ?format=jpg&name=medium);
   height: 645px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
-  padding-left: 70px;
+  padding-top: 155px;
+  padding-left: 10px;
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 60px;
+    padding-left: 70px;
+    padding-top: 100px;
+  }
 }
 
 .contacts ul {
@@ -15,11 +21,14 @@
   list-style: none;
 }
 .contacts ul li {
-  font-size: 45px;
+  font-size: 16px;
   margin-bottom: 30px;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 45px;
+  }
 }
 .contacts ul li:hover a {
-  font-size: 45px;
   margin-bottom: 30px;
   text-decoration: underline;
 }
