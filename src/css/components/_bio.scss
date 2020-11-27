@@ -85,8 +85,12 @@
 .football {
   font-size: 20px;
 
-  transform: translate(1200px, 600px);
+  transform: translate(-150px, 370px);
   transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 1024px) {
+    transform: translate(1200px, 600px);
+  }
 }
 .football.active {
   transform: translate(30px, 370px) scale(1, 1);
@@ -180,8 +184,12 @@
 
 .wu {
   font-size: 20px;
-  transform: translate(-85px, 520px);
+  transform: translate(-85px, 280px);
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 1024px) {
+    transform: translate(-85px, 520px);
+  }
 }
 .wu.active {
   transform: translate(15px, 280px) scale(1, 1);
@@ -254,8 +262,12 @@
 
 .moving {
   font-size: 25px;
-  transform: translate(900px, 80px);
+  transform: translate(-100px, 80px);
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 1024px) {
+    transform: translate(900px, 80px);
+  }
 }
 .moving.active {
   transform: translate(10px, 220px) scale(1, 1);
@@ -273,8 +285,12 @@
 
 .usa {
   font-size: 20px;
-  transform: translate(900px, 200px);
+  transform: translate(-150px, 430px);
   transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 1024px) {
+    transform: translate(900px, 200px);
+  }
 }
 .usa.active {
   transform: translate(5px, 430px) scale(1, 1);
