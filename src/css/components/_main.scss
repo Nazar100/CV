@@ -59,8 +59,12 @@ p {
   height: 100%;
   font-size: 50px;
   content: "↑";
-  transform: translate(38px, 35px);
+  transform: translate(40px, 37px);
   /* transform: translateX(20px); */
+
+  @media screen and (min-width: 1024px) {
+    transform: translate(38px, 35px);
+  }
 }
 .scroll-up:hover {
   color: #f3dd45;
