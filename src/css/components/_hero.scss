@@ -9,6 +9,11 @@
   position: relative;
   overflow: hidden;
   justify-content: center;
+
+  @media screen and (min-width: 1024px) {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 }
 .my-photo {
   height: 500px;
@@ -16,14 +21,19 @@
 
   @media screen and (min-width: 1024px) {
     width: 501px;
+    height: 700px;
   }
 }
 
 .text-container {
   height: 150px;
-  // padding: 35px;
-  padding-top: 30px;
+  padding-top: 70px;
+
   padding-left: 60px;
+
+  @media screen and (min-width: 1025px) {
+    padding: 35px;
+  }
 }
 .text {
   margin-left: 50px;
@@ -34,7 +44,7 @@
   @media screen and (min-width: 1025px) {
     margin-top: 170px;
     display: block;
-    font-size: 90px;
+    font-size: 80px;
   }
 }
 .typed-cursor {

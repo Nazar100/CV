@@ -1,12 +1,7 @@
 const header = document.querySelector("header");
-const videoBtn = document.querySelector(".btn-video");
 
 setTimeout(() => {
   header.classList.add("active");
-}, 3500);
-
-setTimeout(() => {
-  videoBtn.classList.add("active");
 }, 3500);
 
 const backdrop = document.querySelector(".backdrop");

@@ -1,11 +1,13 @@
 const btn = document.querySelector("#menu-navigation");
 const menu = document.querySelector(".navigation");
+console.log(btn);
+console.log(menu);
 
 btn.addEventListener("click", addClass);
 
 function addClass() {
   menu.classList.toggle("active");
-  //   window.addEventListener("click", closeMenu);
+  // window.addEventListener("click", closeMenu);
 }
 
 // function closeMenu({ target }) {
