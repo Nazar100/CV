@@ -27,12 +27,13 @@
 
 .text-container {
   height: 150px;
-  padding-top: 70px;
+  padding-top: 30px;
 
   padding-left: 60px;
 
   @media screen and (min-width: 1025px) {
     padding: 35px;
+    padding-top: 7px;
   }
 }
 .text {

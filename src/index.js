@@ -8,3 +8,4 @@ import "./js/scroll";
 import "./js/skills";
 import "./js/nav-menu";
 import "./js/menu";
+import "./js/handleInput";

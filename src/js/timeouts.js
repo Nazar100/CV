@@ -35,7 +35,6 @@ function removeClassN() {
 }
 function closeModalN({ target }) {
   if (target.classList.value === "backdrop-n") {
-    console.log(target.classList.value);
     backdropN.classList.add("is-hidden");
   }
 }
