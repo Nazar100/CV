@@ -46,6 +46,8 @@
 }
 
 .part-text {
+  margin-left: 25%;
+
   @media screen and (min-width: 1024px) {
     margin-left: 25%;
   }
@@ -75,20 +77,21 @@
 }
 .modal,
 .modal-n {
-  width: 59%;
+  width: 80%;
   height: 220px;
   position: absolute;
   background-color: white;
-  top: 25%;
+  top: 35%;
   left: 50%;
   transform: scale(1) translate(-50%, -55%);
   z-index: 3;
-  padding: 15px 25px;
+  padding: 10px 25px;
   transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   box-shadow: 4px 4px 4px rgba(0.15, 0.15, 0.15, 0.15);
+  padding-bottom: 15px;
 
   @media screen and (min-width: 1024px) {
     height: 600px;
@@ -97,6 +100,7 @@
 }
 
 .code {
+  margin-left: 42%;
   @media screen and (min-width: 1024px) {
     margin-left: 42%;
   }
@@ -105,8 +109,8 @@
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
-  width: 150px;
-  height: 110px;
+  width: 180px;
+  height: 120px;
   margin-bottom: 5px;
 
   @media screen and (min-width: 1024px) {
@@ -117,7 +121,7 @@
 .modal-text {
   margin-left: auto;
   margin-right: auto;
-  font-size: 8px;
+  font-size: 12px;
   margin-top: 0px;
   margin-bottom: 7px;
   // height: 0px;
@@ -151,7 +155,7 @@
   top: 0;
   left: 0;
 
-  transform: translate(103px, -202px);
+  transform: translate(142px, -218px);
   cursor: pointer;
 
   @media screen and (min-width: 1024px) {
