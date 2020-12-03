@@ -78,7 +78,7 @@
 .modal,
 .modal-n {
   width: 80%;
-  height: 230px;
+  height: 223px;
   position: absolute;
   background-color: white;
   top: 35%;
@@ -94,6 +94,7 @@
   padding-bottom: 15px;
 
   @media screen and (min-width: 1024px) {
+    width: 60%;
     height: 600px;
     top: 55%;
   }
@@ -121,7 +122,7 @@
 .modal-text {
   margin-left: auto;
   margin-right: auto;
-  font-size: 10px;
+  font-size: 11px;
   margin-top: 0px;
   margin-bottom: 7px;
   // height: 0px;
@@ -132,7 +133,7 @@
 }
 .modal p,
 .modal-n p {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   font-size: 10px;
   margin-right: auto;
   margin-left: auto;
@@ -141,6 +142,7 @@
   @media screen and (min-width: 1024px) {
     font-size: 30px;
     margin-top: 0px;
+    margin-bottom: 0;
   }
 
   /* width: 480px; */
@@ -155,7 +157,7 @@
   top: 0;
   left: 0;
 
-  transform: translate(142px, -218px);
+  transform: translate(142px, -214px);
   cursor: pointer;
 
   @media screen and (min-width: 1024px) {

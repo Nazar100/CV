@@ -32,10 +32,10 @@ class CountdownTimer {
     this.showOnScreen(days, hours, mins, secs);
   }
   showOnScreen(days, hours, mins, secs) {
-    this.refs.days.textContent = days - 1;
-    this.refs.hours.textContent = hours;
-    this.refs.mins.textContent = mins;
-    this.refs.secs.textContent = secs;
+    this.refs.days.textContent = -days - 1;
+    this.refs.hours.textContent = -hours;
+    this.refs.mins.textContent = -mins;
+    this.refs.secs.textContent = -secs;
   }
 
   pad(value) {
@@ -44,7 +44,7 @@ class CountdownTimer {
 }
 const bd = new CountdownTimer({
   selector: "#timer-1",
-  targetDate: "Feb 17, 2020",
+  targetDate: new Date("Feb 17, 2021"),
 });
 
 bd.start();
