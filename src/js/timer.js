@@ -44,7 +44,7 @@ class CountdownTimer {
 }
 const bd = new CountdownTimer({
   selector: "#timer-1",
-  targetDate: new Date("Feb 17, 2020"),
+  targetDate: new Date("Feb 17, 2021"),
 });
 
 bd.start();
